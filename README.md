@@ -32,15 +32,15 @@ Architektura oparta na 10 powiązanych tabelach wykorzystuje zaawansowane mechan
 
 ## 3. ZAWARTOŚĆ PROJEKTU
 
-| Plik | Opis |
-|------|------|
-| `tworzenie_tabel.sql` | Definicja struktury DDL wraz z więzami integralności |
-| `wypelnienie_bazy.sql` | Skrypt DML zawierający pełny zestaw danych testowych |
-| `usuwanie_update.sql` | Przykłady działania mechanizmów kaskadowych w praktyce |
-| `z1.sql - z7.sql` | Zestawienie zapytań analitycznych (m.in. zwycięzcy, podia krajowe, czasy na trasie, widoki) |
-| `reset.sql` | Skrypt usuwający wszystkie obiekty bazy danych |
-| `model_bd.png` | Diagram ERD |
-| `sprawozdanie.pdf` | Pełna dokumentacja projektowa (cele, erd, opisy encji) |
+| Katalog       | Plik                                    | Opis |
+| database      | `create_db.sql`                         | Stworzenie bazy danych |
+                | `reset.sql`                             | Skrypt usuwający wszystkie obiekty bazy danych |
+                | `creating.sql`                          | Definicja struktury DDL wraz z więzami integralności |
+                | `insert.sql`                            | Skrypt DML zawierający pełny zestaw danych testowych |
+                |  `cascade_delete.sql`, `cascade_update` | Przykłady działania mechanizmów kaskadowych w praktyce |
+| queries       | `z1.sql - z7.sql`                       | Zestawienie zapytań analitycznych (m.in. zwycięzcy, podia krajowe, czasy na trasie, widoki) |
+| documentation | `model_bd.png`                          | Diagram ERD |
+                | `sprawozdanie.pdf`                      | Pełna dokumentacja projektowa (cele, erd, opisy encji) |
 
 ---
 
